@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx nodemon server.js"
   },
-  "author": "Ayo Isaiah",
+  "author": "Youssuf Samir",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
