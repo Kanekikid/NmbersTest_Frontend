@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit; /* [1] */
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* FONTS
+   ========================================================================== */
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; /* [2] */
+  background-color: #252583;
+}
+
+
+
+/* Header
+   ========================================================================== */
+
+.header {
+  font-size: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: #525286;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+
+
+/* Homepage Container
+   ========================================================================== */
+.container{
+    color: #ffffffff;
+}
+
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.input-group input {
+  height: 80px;
+  width: 300%;
+  padding: 5px 10px;
+  position: relative;
+  font-size: 25px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);  
+}
+/*.result{
+    position: relative;
+    top: 10%;
+    left: 35%;
+    transform: translate(-50%, -50%);  
+    text-align: center;
+}*/
+
+/* Profile Card
+   ========================================================================== */
+
+
+
+/* Profile Page
+   ========================================================================== */
+
+.new{
+  position: absolute;
+  top: 80%;
+  left: 51%;
+  transform: translate(-50%, -50%); 
+  font-size: 25px;
+}
+
+ .result {
+  height: 50px;
+  width: 300%;
+  padding: 30px 10px;
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  transform: translate(-50%, -50%);  
+  left: 150%;
+  top: -10%;
+ }
+   
+.profile {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.profile-image {
+  height: 100%;
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+
+.profile-details {
+  flex-basis: 30%;
+  flex-grow: 1;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile-details > * {
+  margin-bottom: 20px;
+}
+
+
+
+/* Buttons
+   ========================================================================== */
+
+
+  
+.button {
+  width: 300%;
+  height: 80px;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    color: white;
+    background: #b92d80;
+    border: none;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,25 @@
+extends default
+
+block content
+  div.container
+    div.centered
+      form(method='POST')
+        div.input-group
+          input#numSet.form-control(type="text" name="numSet" placeholder="Number Set") 
+        div.input-group
+          input#size.form-control(type="number" name="size" placeholder="Size of the set") 
+        div.input-group
+          input#target.form-control(type="number" name="target" placeholder="Target") 
+        button.button(type='submit') Submit
+        div.result
+          h1 Result is
+    div.new
+      <script> var name = "<%= ParsedData %>"; </script>
+        p <script>var name = "<%= name %>";</script>
+          #{ name }
+          //ul
+            each val in name
+              each item in val
+                li #{ item }
+            
+              
